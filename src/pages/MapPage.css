@@ -1,0 +1,8 @@
+.map-page {
+    background-color: #2d2d2d;
+    color: white;
+  }
+  
+  .leaflet-container {
+    filter: grayscale(100%);
+  }

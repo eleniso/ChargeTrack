@@ -1,0 +1,36 @@
+.signin-signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #333;
+  color: #4CAF50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px; /* Fixed width for the form */
+}
+
+input, button {
+  padding: 10px; /* Uniform padding for all fields */
+  font-size: 16px; /* Consistent font size */
+  border: 1px solid #ccc; /* Border around the fields */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width for inputs and button */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none; /* Removes default border from the button */
+}
+
+button:hover {
+  background-color: #45a049; /* Hover effect for the button */
+}

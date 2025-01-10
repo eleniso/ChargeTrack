@@ -1,0 +1,42 @@
+.history-sessions-page {
+    text-align: center;
+    background-color: #2d2d2d;
+    color: #4CAF50;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+  }
+  
+  .sessions-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .sessions-table th, .sessions-table td {
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sessions-table th {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .sessions-table tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  .sessions-table tr:nth-child(odd) {
+    background-color: #555;
+  }
+  
+  .sessions-table tr:hover {
+    background-color: #666;
+  }
+  
